@@ -10,9 +10,9 @@
 
     
     Behaviour Driven Development(BDD)
-    
     Behaviour             Input                                           Output
-   Dialog box opens      User enetrs required credentials                 Akan name displayed
+    Dialog box opens      User enetrs required credentials                 Akan name displayed
+
 </div>
 </div>
   </div>
