@@ -3,13 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>Forms</title>
+    <link rel="stylesheet" href="./style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <form action="/action_page.php">
-    <h3>FILL YOUR BIRTHDAY</h3><br>
-    <input type="date" name="HOTEL NAME" value="">
-    <br>
-    </form>
 
+    <form action="/action_page.php">
+    <h3>FILL YOUR BIRTHDAY</h3>
+    <p> The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.
+      These "day names" have further meanings concerning the soul and character of the person.
+      Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+     <p>This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees.
+ Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.
+      Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
+      Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>
+
+    <div class="card">
+      <div class="card-body">
+
+        <div class="enter">
+      <div class="form">
+        <form action="#" method="POST" onsubmit="return validation();">
+          <table>
+            <tr>
+              <td>
+                <h4>Day:</h4>
+              </td>
+              <td>
+                <input type="text" name="day" id="day" placeholder="Siku">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Month:</h4>
+              </td>
+              <td>
+                <input type="text" name="month" id="month" placeholder="Mwezi">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  Birthday Date:
+               <h4>Year:</h4>
+              </td>
+              <td>
+                <input type="date" name="date" id="date">
+                <input type="text" name="year" id="year" placeholder="Mwaka">
+              </td>
+          </tr>
+          <tr>
+            </tr>
+            <tr>
+              <td>
+                  Gender:
+                <h4>Gender</h4><br>
+              </td>
+              <td>
+                <input type="text" name="gender" id="gender" placeholder="gender">
+                <input type="radio" name="gender" id="male"value="male">Male
+                <input type="radio" name="gender" id="female" value="female">Female
+              </td>
+          </tr>
+        </table><br><br><br>
+       <input class="button" type="submit" name="submit" value="submit">
+      </form>
+     <div id="eresult"></div>
+            </tr>
+          </table>
+        </form>
+        <div id="eresult"></div>
+    </div>
+
+  </div>
+
+    </form>
+<script src="script.js"</script>
   </body>
 </html>

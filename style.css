@@ -1,7 +1,13 @@
 /* myStyle.css */
-body {
- background-color: purple;
- color: Black;
+body{
+
+     background-color: blue
+     font-family: sans-serif;
+     height: 100vh;
+     background-repeat: no-repeat;
+     margin: 0%;
+     padding: 0%;
+
 }
 h1 {
  color:BLack;
@@ -9,8 +15,12 @@ h1 {
  font: italic 200% fantasy;
 }
 p {
- background-color: ;
+ background-color:black ;
  color: #333300;
- text-align: centre;
+ text-align: right;;
  border: 3px groove #FFFF33;
+}
+i {
+  background: white
+  color:black
 }
