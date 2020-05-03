@@ -26,4 +26,14 @@ function MakeArray(n) {
  months[9] = "September"
  months[10] = "October"
  months[11] = "November"
- months[12] = "December" 
+ months[12] = "December"
+
+
+maleakannames = new MakeArray(7);
+akanname[0]= "kwame"
+akanname[1]= "kwasi"
+akanname[2]= "kwadwo"
+akanname[3]= "kwabena"
+akanname[4]= "kwaki"
+akanname[5]= "yaw"
+akanname[6]= "kwame"
