@@ -37,3 +37,13 @@ akanname[3]= "kwabena"
 akanname[4]= "kwaki"
 akanname[5]= "yaw"
 akanname[6]= "kwame"
+
+
+femaleakannames = new MakeArray(7);
+akanname[0]= "Ama"
+akanname[1]= "Akosua"
+akanname[2]= "Adwoa"
+akanname[3]= "Abenaa"
+akanname[4]= "Akua"
+akanname[5]= "Yaa"
+akanname[6]= "Afua"
