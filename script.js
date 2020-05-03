@@ -26,4 +26,18 @@ function MakeArray(n) {
  months[9] = "September"
  months[10] = "October"
  months[11] = "November"
- months[12] = "December" 
+ months[12] = "December"
+
+ function malecompute(form) {
+    var ryde = parseInt(form.day.value, 10)
+    if ((ryde < 0) || (ryde > 31)) {
+       alert("Day doesnt exit")
+    }
+    var ryde2 = parseInt(form.month.value, 10)
+    if ((ryde2 < 0) || (ryde2 > 12)) {
+       alert("Month is out of range")
+    }
+    var ryde2x = parseInt(form.month.value, 10)
+    var ryde3 = parseInt(form.year.value, 10)
+    if (ryde3 < 1985) {
+       alert("You're quite old!")

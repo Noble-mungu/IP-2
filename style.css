@@ -1,7 +1,7 @@
 /* myStyle.css */
 body{
 
-     background-image: url(image/back.jpeg);
+     background: url("image/back.jpeg");
      font-family: sans-serif;
      height: 100vh;
      background-repeat: no-repeat;
