@@ -4,6 +4,24 @@ body {
     width:100%;
     height:100%;
     background-repeat: no-repeat;
-
-
 }
+
+.ghana{
+  width:80px;
+  height:80px;
+  object-fit: cover;
+  border-radius:50%
+}
+
+p.thicker {
+  font-weight: 900;
+}
+
+.form input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ffc107;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
