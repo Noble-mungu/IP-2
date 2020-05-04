@@ -37,6 +37,17 @@ maleakannames[4]= "kwaki"
 maleakannames[5]= "yaw"
 maleakannames[6]= "kwame"
 
+
+femaleakannames = new MakeArray(7);
+femaleakanname[0]= "Ama"
+femaleakanname[1]= "Akosua"
+femaleakanname[2]= "Adwoa"
+femalakanname[3]= "Abenaa"
+femaleakanname[4]= "Akua"
+femaleakanname[5]= "yaw"
+femaleakanname[6]= "Afua"
+
+
  function malecompute(form) {
     var ryde = parseInt(form.day.value, 10)
     if ((ryde < 0) || (ryde > 31)) {
