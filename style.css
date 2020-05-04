@@ -1,22 +1,8 @@
-/* myStyle.css */
-body{
-
-     background: url("./images/back.jpeg");
+body {
+  background-image: url("D:/Downloads/Desktop/Week-2-IP/images/image.jpg.jpg");
 
 
-}
-h1 {
- color:BLack;
- text-align: center;
- font: italic 200% fantasy;
-}
-p {
- background-color:red;
- color: #333300;
- text-align: right;;
- border: 3px groove #FFFF33;
-}
-i {
-  background: white
-  color:black
+
+
+
 }

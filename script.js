@@ -41,3 +41,22 @@ function MakeArray(n) {
     var ryde3 = parseInt(form.year.value, 10)
     if (ryde3 < 1985) {
        alert("You're quite old!")
+
+       if (val2 == 1) {
+    ryde2x = 13;
+    ryde3 = ryde3-1
+ }
+ if (ryde2 == 2) {
+   ryde2x = 14;
+    ryde3 = ryde3-1
+ }
+ var ryde4 = parseInt(((val2x+1)*3)/5, 10)
+ var ryde5 = parseInt(ryde3/4, 10)
+ var ryde6 = parseInt(ryde3/100, 10)
+ var ryde7 = parseInt(val3/400, 10)
+ var ryde8 = ryde1+(ryde2x*2)+ryde4+ryde3+ryde5-ryde6+ryde7+2
+ var ryde9 = parseInt(ryde8/7, 10)
+ var ryde0 = ryde8-(val9*7)
+ form.result1.value = months[ryde2]+" "+form.day.value +", "+form.year.value
+ form.result2.value = femaleakannames [ryde0]
+}
