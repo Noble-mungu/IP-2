@@ -18,10 +18,45 @@ p.thicker {
 }
 
 .form input[type="submit"]{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #ffc107;
-    color: #fff;
-    font-size: 15px;
-    border-radius: 20px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #ffc107;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+
+}
+
+.form input[type="text"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #ffc107;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+
+}
+
+.form input[type="date"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #ffc107;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px
+}
+
+
+
+.form input[type="male"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #ffc107;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px
+}
