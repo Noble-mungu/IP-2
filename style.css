@@ -1,12 +1,8 @@
 /* myStyle.css */
 body{
 
-     background: url("image/back.jpeg");
-     font-family: sans-serif;
-     height: 100vh;
-     background-repeat: no-repeat;
-     margin: 0%;
-     padding: 0%;
+     background: url("./images/back.jpeg");
+
 
 }
 h1 {
@@ -15,7 +11,7 @@ h1 {
  font: italic 200% fantasy;
 }
 p {
- background-color:black ;
+ background-color:red;
  color: #333300;
  text-align: right;;
  border: 3px groove #FFFF33;
