@@ -28,6 +28,15 @@ function MakeArray(n) {
  months[11] = "November"
  months[12] = "December"
 
+ maleakannames = new MakeArray(7);
+maleakannames[0]= "kwame"
+maleakannames[1]= "kwasi"
+maleakannames[2]= "kwadwo"
+maleakannames[3]= "kwabena"
+maleakannames[4]= "kwaki"
+maleakannames[5]= "yaw"
+maleakannames[6]= "kwame"
+
  function malecompute(form) {
     var ryde = parseInt(form.day.value, 10)
     if ((ryde < 0) || (ryde > 31)) {
